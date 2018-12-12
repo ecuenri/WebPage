@@ -3,5 +3,5 @@
     const VIEWS = './Views/';
     const DFT = 'Default/';
     const RQ = 'Resource/';
-    const URL = 'http://localhost/store/';
+    const URL = 'http://localhost/webpage/';
 ?>

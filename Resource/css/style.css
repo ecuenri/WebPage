@@ -65,7 +65,7 @@ visibility: hidden;
 }
 
 .modal-title{
-	
+
 	font-size: 15px;
 	color: #343a40;
 	font-weight: bold;
@@ -254,7 +254,7 @@ footer{
 }
 
 .footer .redes-sociales{
-	padding: 15px;	
+	padding: 15px;
 }
 .footer .redes-sociales .red-social{
 	font-size: 26px;
@@ -282,17 +282,17 @@ footer{
 	background: #dd4b39;
 }
 footer .footer-text{
-	
+
 }
 
 @media screen and (min-width: 730px){
 	.carousel,.carousel-inner{
 		height: 400px;
-	}	
+	}
 }
 @media screen and (max-width: 576px) {
 	.footer .redes-sociales .red-social{
-		font-size: 20px;	
+		font-size: 20px;
 		padding: 3px 7px;
 	}
 }
@@ -356,7 +356,7 @@ footer .footer-text{
 
 .notas .header{
 	width: 100%;
-	background: #373a41;	
+	background: #373a41;
 }
 .notas .header .header-text{
 	padding: 100px 0px;
