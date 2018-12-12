@@ -1,0 +1,376 @@
+.hr{
+	border: .5px solid #fff;
+}
+.form-control{
+	border: .5px solid #2981c5;
+}
+.form-control:focus{
+	border: 2px solid #2981c5;
+	box-shadow: none;
+}
+.nav-link-r:hover{
+	text-decoration: underline;
+	color: red !importante;
+}
+
+.btn-probar{
+	background: #007791;
+	color: #fff;
+}
+.btn-probar:hover{
+	background: #005365;
+}
+.menu-info{
+cursor: pointer;
+margin-right: 5px;
+visibility: hidden;
+}
+.menu-info-name{
+	color:rgb(247, 239, 239);
+	margin: 5px;
+	cursor: pointer;
+}
+.menu-info-visible{
+	visibility: visible;
+}
+.dropdown-item:hover{
+	background-color: rgba(13, 12, 12, 0.744);
+	color: #fff;
+}
+.dropdown-item{
+	color: #fff;
+}
+.dropdown-menu{
+	background-color: rgba(13, 12, 12, 0.644);
+}
+.dropdown-toggle::after {
+	color: #fff;
+}
+.bg-light{
+	background: #fff !important;
+	border-bottom: 1px solid  #D0D3D4;
+	box-shadow:  0 0 .5px .5px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+}
+.bg-dark-2{
+	background: rgba(13, 12, 12, 0.244)!important;
+}
+
+.bg-dark-2:hover{
+	background: rgba(13, 12, 12, 0.544)!important;
+}
+
+.modal-login{
+	max-width: 350px;
+	margin: auto;
+}
+
+.modal-title{
+	
+	font-size: 15px;
+	color: #343a40;
+	font-weight: bold;
+}
+.modal-header{
+	border-bottom: none;
+}
+/*2px solid #307c99*/
+.nav-link{
+	color: #fff;
+}
+.fondo-opaco{
+	background: rgba(13, 12, 12, 0.644);
+}
+.index .header{
+	width: 100%;
+	background: url('../images/bg.jpg') rgba(13, 12, 12, 0.144);
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	background-position: center 0;
+	margin-top: 30px;
+}
+.index .header .contenedor-textos{
+	padding: 150px 0px;
+}
+.index .header .contenedor-textos input{
+   border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    border-bottom: 1px solid #DFE0E0;
+    margin-bottom: 2rem;
+    background: #fff url("../images/icon/search.png") no-repeat center right 12px/1.2rem;
+}
+
+.index .header .contenedor-textos p{
+	font-family: "Open Sans",Arial,sans-serif;
+	text-align: center;
+	font-size: 26px;
+	color: #fff;
+	font-weight: bold;
+}
+.main .quienes-somos{
+	padding-top: 20px;
+}
+.main .quienes-somos .bienvenida{
+	text-align: center;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-weight:  400;
+	font-size: 32px;
+	/*color: #343a40;*/
+	color: #343a40;
+	padding-bottom: 10px;
+}
+.main .quienes-somos .descripcion{
+	text-align: center;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-style: italic;
+	font-weight:  300;
+	color: #343a40;
+}
+.main .caracteristicas{
+	padding: 30px 0px;
+	background: #FAFAFA;
+}
+.main .caracteristicas .titulo{
+	text-align: center;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #343a40;
+	margin-bottom:50px ;
+}
+.main .caracteristicas .caracteristica{
+	text-align: center;
+}
+.main .caracteristicas .caracteristica .icon{
+	vertical-align: top;
+	margin-bottom: 10px;
+}
+
+.main .caracteristicas .caracteristica .primera-linea{
+	font-weight: 500;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.main .caracteristicas .caracteristica .parrafo{
+	margin-bottom: 20px;
+	line-height: 25px;
+}
+
+.main .productos{
+	margin-bottom: 50px;
+}
+.main .productos .titulo{
+	text-align: center;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #343a40;
+	margin-top: 20px;
+	margin-bottom:30px;
+}
+.main .productos .producto{
+	border: 1px solid  #D0D3D4;
+	border-radius: 3px;
+	padding: 10px;
+	margin-bottom: 15px;
+	box-shadow:  0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+}
+.main .productos .producto .producto-img{
+	width: 100%;
+}
+.main .productos .producto .informacion p{
+	margin: 0px;
+}
+.main .productos .producto .informacion .nombre{
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 3px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color:#343a40 ;
+}
+.main .productos .producto .informacion .sub-titulo{
+	color: #686f7a;
+	font-size: 13px;
+}
+.main .productos .producto .informacion .parrafo{
+	font-size: 15px;
+	margin-top: 10px;
+}
+.main .productos .producto .informacion .calificacion{
+	color: #FFA500;
+	font-size: 18px ;
+}
+.main .contactanos{
+	background: #FAFAFA;
+}
+
+.main .contactanos .titulo{
+	text-align: center;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #343a40;
+	margin-top: 20px;
+	margin-bottom:10px;
+}
+
+.main .contactanos .sub-titulo{
+	font-family: "Open Sans",Arial,sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	color: #000;
+	margin-top: 20px;
+	margin-bottom:5px;
+}
+.main .contactanos .formulario{
+	max-width: 450px;
+}
+
+
+.main .contactanos textarea{
+	min-height: 100px;
+	max-height: 200px;
+}
+.main .contactanos .mapa{
+	min-height: 260px;
+	max-height:260px;
+}
+
+footer{
+	padding-bottom: 10px;
+	color: #fff;
+	margin: 0px;
+}
+.footer{
+	color: #fff;
+	padding: 10px 0px 0px 0px;
+	margin: 0px;
+}
+
+.footer .redes-sociales{
+	padding: 15px;	
+}
+.footer .redes-sociales .red-social{
+	font-size: 26px;
+	border-radius: 10px;
+	padding: 10px 20px;
+	text-align: center;
+	color: #fff;
+}
+.footer .redes-sociales .facebook:hover{
+	background: #3b5998;
+}
+.footer .redes-sociales .linkedin:hover{
+	background: #007bb5;
+}
+.footer .redes-sociales .youtube:hover{
+	background: #bb0000;
+}
+.footer .redes-sociales .twitter:hover{
+	background: #55acee;
+}
+.footer .redes-sociales .whatsapp:hover{
+	background: #4dc247;
+}
+.footer .redes-sociales .google:hover{
+	background: #dd4b39;
+}
+footer .footer-text{
+	
+}
+
+@media screen and (min-width: 730px){
+	.carousel,.carousel-inner{
+		height: 400px;
+	}	
+}
+@media screen and (max-width: 576px) {
+	.footer .redes-sociales .red-social{
+		font-size: 20px;	
+		padding: 3px 7px;
+	}
+}
+@media screen and (max-width: 729px){
+	.index .header .contenedor-textos{
+		padding: 70px 0px;
+	}
+}
+
+
+/*parte de listado*/
+
+.listado .header{
+	width: 100%;
+	background: #373a41;
+}
+.listado .header .header-text{
+	padding: 100px 0px;
+}
+.listado .header .header-text h2{
+	color: #fff;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 41px;
+}
+.listado .header .header-text p{
+	color: #fff;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+.listado .lista{
+	margin: 20px;
+}
+
+/*parte de matricula*/
+
+.matricula .header{
+	width: 100%;
+	background: #373a41;
+}
+.matricula .header .header-text{
+	padding: 100px 0px;
+}
+.matricula .header .header-text h2{
+	color: #fff;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 41px;
+}
+.matricula .header .header-text p{
+	color: #fff;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+/*parte de notas*/
+
+.notas .header{
+	width: 100%;
+	background: #373a41;	
+}
+.notas .header .header-text{
+	padding: 100px 0px;
+}
+.notas .header .header-text h2{
+	color: #fff;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 41px;
+}
+.notas .header .header-text p{
+	color: #fff;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
